@@ -1,0 +1,45 @@
+---
+title: "Example Rmd Post"
+author: "Jake Thompson"
+date: 2021-08-24T21:13:14-05:00
+---
+
+<script src="{{< blogdown/postref >}}index_files/header-attrs/header-attrs.js"></script>
+
+
+<div id="unnumbered-equation" class="section level1">
+<h1>Unnumbered equation</h1>
+<p>Here is an unnumbered equation:</p>
+<pre><code>$$
+a^2 + b^2 = c^2
+$$</code></pre>
+<p><span class="math display">\[
+a^2 + b^2 = c^2
+\]</span></p>
+</div>
+<div id="numbered-equation" class="section level1">
+<h1>Numbered equation</h1>
+<pre><code>$$
+\begin{equation}
+  a^2 + b^2 = c^2
+  (\#eq:pythag)
+\end{equation}
+$$</code></pre>
+<p><span class="math display" id="eq:pythag">\[
+\begin{equation}
+  a^2 + b^2 = c^2
+  \tag{1}
+\end{equation}
+\]</span></p>
+</div>
+<div id="numbered-equation---no-line-break" class="section level1">
+<h1>Numbered equation - no line break</h1>
+<pre><code>$$\begin{equation}
+  a^2 + b^2 = c^2
+  (\#eq:pythag2)
+\end{equation}$$</code></pre>
+<p><span class="math display" id="eq:pythag2">\[\begin{equation}
+  a^2 + b^2 = c^2
+  \tag{2}
+\end{equation}\]</span></p>
+</div>
